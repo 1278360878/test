@@ -37,4 +37,5 @@ public class Apple {
 
 		return "weight: " + weight + "  color: " + color;
 	}
+
 }

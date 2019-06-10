@@ -25,7 +25,7 @@ public class MyStreamTest {
 		//
 		apples.sort((Apple a1, Apple a2) -> a1.getWeight().compareTo(a2.getWeight()));
 		System.out.println(apples);
-		//方法引用
+		// 方法引用
 		apples.sort(comparing(Apple::getWeight));
 		System.out.println(apples);
 	}
